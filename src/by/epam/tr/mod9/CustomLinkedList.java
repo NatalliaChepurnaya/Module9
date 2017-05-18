@@ -8,7 +8,7 @@ public class CustomLinkedList<T> {
 	private Item<T> tail = null;
 	private int numberOfElements = 0;
 	
-	public static void main(String[] args){
+	public static void main(String[] args){// метод main свегда лучше держать в отдельном классе
 		Number[] array = {2.5,1,100,0100,10L};
 		CustomLinkedList<Number> test = new CustomLinkedList<Number>(array);
 		
